@@ -2,69 +2,57 @@
 
 
 
-
-
-
-
 **GitHub:** [kabzon93region](https://github.com/kabzon93region)
 
-**Deployment:** `(headless_all)`  
+**Клиентский мод для SPT 4 + Fika.** Оверлей разведданных рейда с broadcast-синхронизацией в headless-coop.
 
 
 
-**Version:** `1.2.0`  
+## Возможности
 
 
 
-**Platform:** EFT 16.9 / SPT 4.0.13 / Fika 2.3.x
+- Отображение разведданных рейда в реальном времени
+
+- Broadcast данных между хостом и клиентами
+
+- Интеграция с Fika headless
 
 
 
+## Установка
 
 
 
-
-Оверлей разведданных рейда + broadcast в headless-coop.
-
+1. Скопировать `RaidIntelOverlay.dll` в `BepInEx/plugins/`
 
 
 
+## Требования
 
 
 
-## Install
+- **Fika** headless-coop
+
+- **SPT**: 4.0.x
+
+- **BepInEx**: 5.4.x
 
 
 
+## Известные проблемы
 
 
 
-
-1. Download release zip from GitHub Releases.
-
-
-
-2. Extract into Escape from Tarkov game root (`EscapeFromTarkov.exe`).
+- Синк на хосте стартует при `IBotGame` до готовности `MainPlayer` — мониторить тайминги на медленных картах
 
 
 
-3. See `INSTALL.md` in release folder (not inside zip).
+## Совместимость
 
 
 
-
-
-
-
-## Changelog
-
-
-
-
-
-
-
-See [CHANGELOG.md](CHANGELOG.md).
+- `headless_all` — и на хосте, и на клиентах
 
 
 
