@@ -2,7 +2,7 @@
 
 **Статус:** `ready`  
 **GitHub:** Release + zip  
-**Версия:** `1.2.2`  
+**Версия:** `1.2.0`  
 **Deployment:** `(headless_all)`
 
 ## 1. Подготовка (уже сделано этим скриптом)
@@ -15,7 +15,7 @@
 cd github-repos/RaidIntelOverlay
 git init
 git add .
-git commit -m "Source backup Raid Intel Overlay v1.2.2"
+git commit -m "Source backup Raid Intel Overlay v1.2.0"
 git branch -M main
 git remote add origin https://github.com/kabzon93region/RaidIntelOverlay.git
 git push -u origin main
@@ -34,8 +34,8 @@ python CURSORAIMODING/tools/publish/publish_github_release.py RaidIntelOverlay -
 `\\Servant\data\Games\EscapeFromTarkov4\CURSORAIMODING\releases\RaidIntelOverlay_(headless_all)_v1.2.0_2026-06-27.zip`
 
 ```powershell
-gh release create v1.2.2 "\\Servant\data\Games\EscapeFromTarkov4\CURSORAIMODING\releases\RaidIntelOverlay_(headless_all)_v1.2.0_2026-06-27.zip" ^
-  --title "Raid Intel Overlay v1.2.2" ^
+gh release create v1.2.0 "\\Servant\data\Games\EscapeFromTarkov4\CURSORAIMODING\releases\RaidIntelOverlay_(headless_all)_v1.2.0_2026-06-27.zip" ^
+  --title "Raid Intel Overlay v1.2.0" ^
   --notes-file CHANGELOG.md
 ```
 
